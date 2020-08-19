@@ -1,3 +1,4 @@
+{% load static %}
 {% block head %}
 
 <!doctype html>
@@ -17,7 +18,7 @@
   <body>
     <div class="container">
             <div class="container">
-        <img src="https://i.ibb.co/fnBkyvd/Pbanner.png" alt="banner" width="1080" class="img-fluid d-block">
+        <img src="{% static "image/Pbanner.png" %}" alt="banner" width="1080" class="img-fluid d-block">
         </div>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-sticky-top">
         <a class="navbar-brand" href="#">Blog</a>
